@@ -1,0 +1,30 @@
+@import "/css/imports/variables.css";
+
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--text-paragraph);
+  font-size: calc(15px + 0.3vw);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: var(--color-text);
+}
+
+h1 {
+  font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma,
+    sans-serif;
+}
