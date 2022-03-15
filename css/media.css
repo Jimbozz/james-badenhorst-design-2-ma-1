@@ -2,4 +2,8 @@
   header {
     justify-content: center;
   }
+
+  .reverse {
+    flex-direction: row;
+  }
 }
