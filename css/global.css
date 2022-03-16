@@ -61,6 +61,15 @@ main {
   font-family: var(--text-heading);
   font-weight: bold;
   font-size: 2rem;
+  gap: 1.3rem;
+  display: flex;
+  height: 6vh;
+  align-items: center;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
 }
 
 nav ul {
@@ -87,7 +96,7 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   padding: 4rem;
-  gap: 10rem;
+  gap: 7rem;
 }
 
 .hero-container {
@@ -96,6 +105,7 @@ header h1 {
 
 .hero div {
   flex: 1;
+  min-width: 30vw;
 }
 
 .hero-title {
@@ -114,7 +124,11 @@ header h1 {
 
 .favourites {
   background-color: white;
-  padding: 4rem;
+  padding: 6rem 4rem;
+}
+
+.favourites h2 {
+  margin-top: 0px;
 }
 
 .favourites-cards {
