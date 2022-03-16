@@ -68,8 +68,8 @@ main {
 }
 
 .logo img {
-  height: 100%;
   width: auto;
+  height: 100%;
 }
 
 nav ul {
