@@ -7,4 +7,20 @@
   .reverse {
     flex-direction: row;
   }
+
+  .hero-button {
+    margin-top: 1rem;
+  }
+
+  .hero {
+    gap: 3rem;
+  }
+
+  .about {
+    padding: 7rem 3rem;
+  }
+
+  .range-item {
+    gap: 2rem;
+  }
 }
