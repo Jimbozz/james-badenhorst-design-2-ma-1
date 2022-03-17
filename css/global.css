@@ -18,7 +18,7 @@ body {
 
 body {
   font-family: var(--text-paragraph);
-  font-size: calc(15px + 0.3vw);
+  font-size: calc(16px + 0.3vw);
   line-height: 1.6;
   margin: 0;
   padding: 0;
