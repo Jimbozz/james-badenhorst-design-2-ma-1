@@ -64,7 +64,7 @@ main {
   gap: 1.3rem;
   display: flex;
   height: 6vh;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logo img {
